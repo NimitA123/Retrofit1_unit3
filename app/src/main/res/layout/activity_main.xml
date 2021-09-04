@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:id = "@+id/etUserId"
+       android:layout_height="wrap_content"
+       android:hint = "Enter a user id"
+       android:textColor="@color/black"
+
+       android:inputType="number"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text = "Make an Api Call"
+        android:id = "@+id/btnCallApi"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id = "@+id/ivAvatar"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tvfirstName"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tvLastName"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/tvEmail"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+
+
+
+
+</LinearLayout>
